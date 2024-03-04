@@ -1,0 +1,13 @@
+Strategia to behawioralny wzorzec projektowy pozwalający zdefiniować rodzinę algorytmów,
+umieścić je w osobnych klasach i uczynić obiekty tych klas wymienialnymi.
+Wzorzec strategia eliminuje instrukcje warunkowe w aplikacji - tworzy on zestawy algorytmów.
+
+Intefejs definiuje zestaw metod, które muszą zostać zaimplementowane przez każdą klasę, która ten intefejs implementuje.
+Interfejsy używane są do wielokrotnego dziedziczenia.
+
+
+Wzorzec strategii jest stosowany głównie do zarządzania różnymi algorytmami i strategiami a interfejs to mechanizm służący do definiowania różnych metod które muszą być spełnione przez klasy implementujące te interfejsy.
+
+Wady i zalety wzorca strategii
+Zalety: możliwość wprowadzania nowych strategii bez konieczności dokonywania zmian w poprzednikach, zamiana algorytmu stosowanego w obrębie obiektu w trakcie działania programu, eliminacja instrukcji warunkowych, możliwość niezależnego testowania strategii
+Wady: zwiększenie liczby obiektów, dodatkowy koszt komunikacji między klientem a strategią (wywołania metod, przekazywanie danych)
