@@ -1,4 +1,4 @@
-package Car;
+package Car_poprawione;
 
 public class Pagani implements CarName, CarSpeed{
     @Override
